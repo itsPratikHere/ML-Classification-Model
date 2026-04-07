@@ -6,6 +6,7 @@ This project implements a machine learning pipeline to solve the classic Titanic
 The objective was to move beyond simple accuracy and understand the underlying factors—such as gender and ticket class—that determined survival during the 1912 tragedy.
 
 🛠️ Technical Stack
+
 Language: Python
 
 Libraries :
