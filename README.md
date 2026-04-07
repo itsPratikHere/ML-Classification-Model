@@ -1,6 +1,7 @@
 🚢 Titanic Survival Prediction: Random Forest Analysis
 
 📌 Project Overview
+
 This project implements a machine learning pipeline to solve the classic Titanic: Machine Learning from Disaster challenge. Using a Random Forest Classifier, the model predicts passenger survival based on demographic and socio-economic features.
 
 The objective was to move beyond simple accuracy and understand the underlying factors—such as gender and ticket class—that determined survival during the 1912 tragedy.
@@ -26,10 +27,13 @@ Why Random Forest? It handles non-linear relationships effectively and is robust
 Configuration: 100 decision trees (n_estimators=100) were used to build an ensemble majority-vote system.
 
 📊 Results
+
 Model Performance
+
 The final model achieved a predictive accuracy score of 81.01%.
 
-Feature Importance
+⚙️Feature Importance
+
 The analysis revealed that the top three predictors of survival were:
 
 1. Sex: Validating the "Women and children first" historical protocol.
@@ -39,6 +43,7 @@ The analysis revealed that the top three predictors of survival were:
 3. Age: Confirming that younger passengers were prioritized during evacuation.
 
 🚀 How to Run
+
 1.Clone the repository: git clone https://github.com/YOUR_USERNAME/titanic-survival-prediction.git
 
 2.Install dependencies: pip install pandas seaborn scikit-learn matplotlib
